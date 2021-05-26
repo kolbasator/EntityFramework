@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System; 
 using Microsoft.EntityFrameworkCore;
 
 namespace CodeFirstEntityFramework
@@ -15,12 +13,23 @@ namespace CodeFirstEntityFramework
         public DbSet<Actor> Actors { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public CodeFirstContext()
+        { 
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            Database.EnsureCreated();
+            if (!System.Diagnostics.Debugger.IsAttached)
+                System.Diagnostics.Debugger.Launch();
+            modelBuilder.ApplyConfiguration(new MovieConfiguration());
+            modelBuilder.ApplyConfiguration(new CopyConfiguration());
+            modelBuilder.ApplyConfiguration(new ClientConfiguration());
+            modelBuilder.ApplyConfiguration(new RentalConfiguration());
+            modelBuilder.ApplyConfiguration(new ActorConfiguration());
+            modelBuilder.ApplyConfiguration(new StarringConfiguration());
+            modelBuilder.ApplyConfiguration(new EmployeeConfiguration());
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Server = 127.0.0.1; User Id = postgres; Password = razumovsky123; Database = SimpleNetworkDB;");
+            optionsBuilder.UseNpgsql("Server = 127.0.0.1; User Id = postgres; Password = razumovsky123; Database = CodeFirstContextDataBase;");
         }
     }
 }

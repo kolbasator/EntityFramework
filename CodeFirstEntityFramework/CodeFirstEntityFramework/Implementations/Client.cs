@@ -10,5 +10,6 @@ namespace CodeFirstEntityFramework
         public string Firstname { get; set; }
         public string Lastname { get; set; }
         public DateTime Birthday { get; set; }
+        public ICollection<Rental> Rentals { get; set; }
     }
 }

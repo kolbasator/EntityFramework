@@ -11,6 +11,8 @@ namespace CodeFirstEntityFramework
         public int Year { get; set; }
         public int AgeRestriction{ get; set; }
         public float Price { get; set; }
+        public ICollection<Copy> Copies { get; set; }
+        public ICollection<Starring> Starring { get; set; } 
 
     }
 }

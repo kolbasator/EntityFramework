@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System; 
+using Microsoft.EntityFrameworkCore; 
 
 namespace CodeFirstEntityFramework
 {
+    [Keyless]
     public class Employee : IEmployee
     {
         public string Firstname { get; set; }

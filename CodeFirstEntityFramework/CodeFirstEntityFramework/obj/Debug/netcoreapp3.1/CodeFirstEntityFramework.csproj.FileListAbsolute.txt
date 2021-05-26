@@ -22,3 +22,12 @@ C:\Users\777\Desktop\Projects\EntityFrameworkRazumovsky\CodeFirstEntityFramework
 C:\Users\777\Desktop\Projects\EntityFrameworkRazumovsky\CodeFirstEntityFramework\CodeFirstEntityFramework\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\777\Desktop\Projects\EntityFrameworkRazumovsky\CodeFirstEntityFramework\CodeFirstEntityFramework\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\777\Desktop\Projects\EntityFrameworkRazumovsky\CodeFirstEntityFramework\CodeFirstEntityFramework\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\777\Desktop\Projects\EntityFrameworkRazumovsky\CodeFirstEntityFramework\CodeFirstEntityFramework\bin\Debug\netcoreapp3.1\CodeFirstEntityFramework.deps.json
+C:\Users\777\Desktop\Projects\EntityFrameworkRazumovsky\CodeFirstEntityFramework\CodeFirstEntityFramework\bin\Debug\netcoreapp3.1\CodeFirstEntityFramework.runtimeconfig.json
+C:\Users\777\Desktop\Projects\EntityFrameworkRazumovsky\CodeFirstEntityFramework\CodeFirstEntityFramework\bin\Debug\netcoreapp3.1\CodeFirstEntityFramework.runtimeconfig.dev.json
+C:\Users\777\Desktop\Projects\EntityFrameworkRazumovsky\CodeFirstEntityFramework\CodeFirstEntityFramework\bin\Debug\netcoreapp3.1\CodeFirstEntityFramework.dll
+C:\Users\777\Desktop\Projects\EntityFrameworkRazumovsky\CodeFirstEntityFramework\CodeFirstEntityFramework\bin\Debug\netcoreapp3.1\CodeFirstEntityFramework.pdb
+C:\Users\777\Desktop\Projects\EntityFrameworkRazumovsky\CodeFirstEntityFramework\CodeFirstEntityFramework\obj\Debug\netcoreapp3.1\CodeFirstEntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\777\Desktop\Projects\EntityFrameworkRazumovsky\CodeFirstEntityFramework\CodeFirstEntityFramework\obj\Debug\netcoreapp3.1\CodeFirstEntityFramework.dll
+C:\Users\777\Desktop\Projects\EntityFrameworkRazumovsky\CodeFirstEntityFramework\CodeFirstEntityFramework\obj\Debug\netcoreapp3.1\CodeFirstEntityFramework.pdb
+C:\Users\777\Desktop\Projects\EntityFrameworkRazumovsky\CodeFirstEntityFramework\CodeFirstEntityFramework\obj\Debug\netcoreapp3.1\CodeFirstEntityFramework.genruntimeconfig.cache
