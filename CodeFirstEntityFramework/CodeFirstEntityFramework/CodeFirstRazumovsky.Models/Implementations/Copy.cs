@@ -11,6 +11,16 @@ namespace CodeFirstEntityFramework
         public bool Available { get; set; }
         public int MovieId { get; set; } 
         public Movie Movie { get; set; }
+        public Copy()
+        {
+        }
+
+        public Copy(int copyId, int movieId, bool available)
+        {
+            CopyId = copyId;
+            MovieId = movieId;
+            Available = available;
+        }
         public ICollection<Rental> Rentals { get; set; }
     }
 }

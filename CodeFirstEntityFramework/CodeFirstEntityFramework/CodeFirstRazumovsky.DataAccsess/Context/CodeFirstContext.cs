@@ -16,9 +16,7 @@ namespace CodeFirstEntityFramework
         { 
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            if (!System.Diagnostics.Debugger.IsAttached)
-                System.Diagnostics.Debugger.Launch();
+        { 
             modelBuilder.ApplyConfiguration(new MovieConfiguration());
             modelBuilder.ApplyConfiguration(new CopyConfiguration());
             modelBuilder.ApplyConfiguration(new ClientConfiguration());

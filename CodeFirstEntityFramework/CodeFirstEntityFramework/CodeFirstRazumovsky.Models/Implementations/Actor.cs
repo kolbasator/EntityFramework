@@ -10,6 +10,18 @@ namespace CodeFirstEntityFramework
         public string Firstname { get; set; }
         public string Lastname { get; set; }
         public DateTime Birthday { get; set; }
+        public Actor()
+        {
+        }
+
+        public Actor(int actorId, string firstname, string lastname, DateTime birthday)
+        {
+            ActorId = actorId;
+            Firstname = firstname;
+            Lastname = lastname;
+            Birthday = birthday;
+        }
+
         public ICollection<Starring> Starring { get; set; }
     }
 }

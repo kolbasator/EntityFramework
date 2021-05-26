@@ -6,6 +6,7 @@ namespace CodeFirstEntityFramework
     {
         static void Main(string[] args)
         { 
+            
         }
     }
 }

@@ -4,12 +4,13 @@ using System.Text;
 
 namespace CodeFirstEntityFramework
 {
-    public interface IClient
+    public interface IEmployee
     {
-        public int ClientId { get; set; }
         public string Firstname { get; set; }
         public string Lastname { get; set; }
-        public DateTime Birthday { get; set; }
-        public ICollection<Rental> Rentals { get; set; }
+        public string City { get; set; }
+        public int EmployeeId { get; set; }
+        public float Salary { get; set; }
+
     }
 }
