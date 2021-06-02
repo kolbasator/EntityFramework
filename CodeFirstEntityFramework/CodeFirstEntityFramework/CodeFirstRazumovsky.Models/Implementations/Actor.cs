@@ -23,5 +23,9 @@ namespace CodeFirstEntityFramework
         }
 
         public ICollection<Starring> Starring { get; set; }
+        public override string ToString()
+        {
+            return $"{ActorId},{Firstname},{Lastname},{Birthday}";
+        }
     }
 }

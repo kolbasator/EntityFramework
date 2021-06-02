@@ -20,5 +20,9 @@ namespace CodeFirstEntityFramework
             DateOfRental = dateOfRental;
             DateOfReturn = dateOfReturn;
         }
+        public override string ToString()
+        {
+            return $"{CopyId},{ClientId},{DateOfRental},{DateOfReturn}";
+        }
     }
 }

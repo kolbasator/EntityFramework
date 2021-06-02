@@ -23,5 +23,9 @@ namespace CodeFirstEntityFramework
             Salary = salary;
             City = city;
         }
+        public override string ToString()
+        {
+            return $"{Firstname},{Lastname},{City},{EmployeeId},{Salary}";
+        }
     }
 }

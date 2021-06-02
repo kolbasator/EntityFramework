@@ -10,10 +10,11 @@ namespace CodeFirstEntityFramework
         {
             while (true)
             { 
-                Console.WriteLine("Menu:\n1-Selection\n2-Joins\n3-Sets");
+                Console.WriteLine("Menu:\n1-Selection\n2-Joins\n3-Sets\n4-CRUD");
                 var selection = new Selection();
                 var sets = new SetsAndAggregateFunctions();
                 var joins=new Joins();
+                var crud = new CRUD();
                 int movie = int.Parse(Console.ReadLine());
                 switch (movie)
                 {
@@ -103,6 +104,24 @@ namespace CodeFirstEntityFramework
                         sets.SelectNamesOfAllClientsAndActors();
                         Console.ReadLine(); 
                         sets.SelectTitleOfMoviesAndMinRentalTimeAndMaxRentalTimeAndAverageRentalTimeAndCountOfRentalsOrderedByCountOfRentalsDescending();
+                        Console.ReadLine();
+                        break;
+                    case 4:
+                        crud.InsertIntoMoviesMadagascar();
+                        Console.ReadLine();
+                        crud.RemoveMoviesProducedin2005();
+                        Console.ReadLine(); 
+                        crud.IncreasePriceOfAllMoviesProducedBefore1980By05();
+                        Console.ReadLine();
+                        crud.InsertIntoMoviesTheIncredibels();
+                        Console.ReadLine();
+                        crud.DeleteAllMoviesInWhichNoActorsPlayed();
+                        Console.ReadLine();
+                        crud.SetNewPriceForTaxiDriver();
+                        Console.ReadLine();
+                        crud.InsertNewCopyOfPlatoon();
+                        Console.ReadLine();
+                        crud.IncreaseTitleOfMoviesWhichWasRentedMoreThanTwiceBy1();
                         Console.ReadLine();
                         break;
                 }

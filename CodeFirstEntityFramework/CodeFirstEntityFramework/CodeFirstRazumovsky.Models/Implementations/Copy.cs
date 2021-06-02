@@ -22,5 +22,9 @@ namespace CodeFirstEntityFramework
             Available = available;
         }
         public ICollection<Rental> Rentals { get; set; }
+        public override string ToString()
+        {
+            return $"{CopyId},{Available},{MovieId}";
+        }
     }
 }

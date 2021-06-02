@@ -19,5 +19,9 @@ namespace CodeFirstEntityFramework
             ActorId = actorId;
             MovieId = movieId;
         }
+        public override string ToString()
+        {
+            return $"{ActorId},{MovieId}";
+        }
     }
 }

@@ -25,5 +25,9 @@ namespace CodeFirstEntityFramework
             AgeRestriction = ageRestriction;
             Price = price;
         }
+        public override string ToString()
+        {
+            return $"{MovieId},{Title},{Year},{AgeRestriction},{Price}";
+        }
     }
 }

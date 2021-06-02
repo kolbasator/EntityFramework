@@ -22,5 +22,9 @@ namespace CodeFirstEntityFramework
             Birthday = birthday;
         }
         public ICollection<Rental> Rentals { get; set; }
+        public override string ToString()
+        {
+            return $"{ClientId},{Firstname},{Lastname},{Birthday}";
+        }
     }
 }
